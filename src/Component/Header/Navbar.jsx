@@ -24,7 +24,7 @@ function Navbar() {
            </div>
           </div>
 
-          <div className="lg:max-2xl:flex lg:max-2xl:justify-end lg:max-2xl:mt-[6px] lg:max-2xl:mr-[10px] lg:max-2xl:w-[55%] sm:hidden">
+          <div className="lg:max-2xl:flex lg:max-2xl:justify-end lg:max-2xl:mt-[6px] lg:max-2xl:mr-[100px] lg:max-2xl:w-[55%] sm:hidden">
 
             <div className="lg:max-2xl:flex lg:max-2xl:gap-[10px] lg:max-2xl:m-4">
             <div className=' bg-white bg-opacity-20 p-1 lg:max-2xl:w-[38px] lg:max-2xl:h-[40px] rounded-full lg:max-2xl:mt-[-6px]'>
