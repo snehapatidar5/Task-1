@@ -39,8 +39,8 @@ const Questions = () => {
 
 
   return (
-    <>
-    <div>
+    <div className='lg:max-2xl:mt-[-300px] sm:mt-[-400px]'>
+    <div >
     <img src={chart} className='rounded-3xl p-2 cursor-pointer sm:hidden lg:max-2xl:block w-[100%]'/>
     <img src={chart2} className='rounded-3xl p-2 cursor-pointer lg:max-2xl:hidden'/>
  </div>
@@ -75,7 +75,7 @@ const Questions = () => {
         </button>
       </div>
     </div>
-    </>
+    </div>
  
 
      
