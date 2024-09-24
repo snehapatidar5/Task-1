@@ -41,7 +41,7 @@ const Questions = () => {
   return (
     <>
     <div>
-    <img src={chart} className='rounded-3xl p-2 cursor-pointer sm:hidden lg:max-2xl:block '/>
+    <img src={chart} className='rounded-3xl p-2 cursor-pointer sm:hidden lg:max-2xl:block w-[100%]'/>
     <img src={chart2} className='rounded-3xl p-2 cursor-pointer lg:max-2xl:hidden'/>
  </div>
  <div className="lg:max-2xl:max-w-3xl mx-auto  p-6 sm:max-w-lg  ">
