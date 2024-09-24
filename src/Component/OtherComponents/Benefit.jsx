@@ -4,7 +4,7 @@ import check from '../../assets/check.png'
 
 function Benefit() {
   return (
-    <div className="lg:max-2xl:flex lg:max-2xl:justify-center lg:max-2xl:gap-3 lg:max-2xl:mt-[-60px] ">
+    <div className="lg:max-2xl:flex lg:max-2xl:justify-center lg:max-2xl:gap-3 lg:max-2xl:mt-[-60px] sm:mt-10 ">
       <div>
               <img src={benefit} className="lg:max-2xl:w-[450px] lg:max-2xl:h-[600px] sm:w-[343px] h-[377px] rounded-lg  sm:m-4 sm:object-cover " />
       </div>
