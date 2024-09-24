@@ -15,9 +15,9 @@ function Footer() {
        
             <div className='sm:text-center lg:mb-0 lg:flex lg:max-2xl:justify-around  '>
 
-            <div className='lg:max-2xl:mt-[47px]  lg:max-2xl:w-[322px] lg:max-2xl:h-[288px] flex flex-col items-center sm:flex sm:justify-center lg:max-2xl:text-start'>
+            <div className='lg:max-2xl:mt-[35px]  lg:max-2xl:w-[322px] lg:max-2xl:h-[288px] flex flex-col items-center sm:flex sm:justify-center lg:max-2xl:text-start'>
             <img src={footer_logo} alt="Logo" className='lg:max-2xl:w-[150px] lg:max-2xl:h-[50] sm:mx-auto lg:max-2xl:ml-0 '/>
-            <p className='pt-[29px] leading-relaxed w-[315px] h-[137px] lg:max-2xl:text-lg text-[#3A3939]  '>Lörem ipsum reaned rekle, banat. Jasminmöte betrese  Lörem ipsum reaned rekle, banat. Jasminmöte betrese Lörem ipsum reaned rekle, banat. Jasminmöte betrese Lörem</p>
+            <p className='pt-[14px] leading-relaxed w-[315px] h-[137px] lg:max-2xl:text-lg text-[#3A3939]  '>Lörem ipsum reaned rekle, banat. Jasminmöte betrese  Lörem ipsum reaned rekle, banat. Jasminmöte betrese Lörem ipsum reaned rekle, banat. Jasminmöte betrese Lörem</p>
             <div className='pt-[34px] flex gap-[35px] mt-[10px] lg:max-2xl:ml-[-50px]'>
             <FaFacebookF className='  text-[#2B53D6]' />
             <FaTwitter className=' text-[#2B53D6]' />
@@ -65,9 +65,9 @@ function Footer() {
             </div>
 
             <div className='lg:max-2xl:text-start lg:max-2xl:mt-[-25px]'>
-                <div className="lg:max-2xl:mt-[52px] lg:max-2xl:ml-[10px] sm:flex sm:flex-col">
+                <div className="lg:max-2xl:mt-[55px] lg:max-2xl:ml-[10px] sm:flex sm:flex-col">
                     <h2 className="text-[#050505] font-bold lg:max-2xl:text-lg sm:mt-6">Contact Us</h2>
-                    <div  className="lg:max-2xl:flex lg:max-2xl:gap-[10px] lg:max-2xl:mt-[40px] lg:max-2xl:mr-10  sm:pt-4 sm:flex sm:item-center sm:justify-center gap-2">
+                    <div  className="lg:max-2xl:flex lg:max-2xl:gap-[10px] lg:max-2xl:mt-[23px] lg:max-2xl:mr-10  sm:pt-4 sm:flex sm:item-center sm:justify-center gap-2">
               <BsTelephone  className="text-[#2B53D6] w-[15px] h-[15px] sm:mt-1" />
               <p className=" lg:max-2xl:text-lg text-[#343939] ">800-294-9940</p>
             </div>
