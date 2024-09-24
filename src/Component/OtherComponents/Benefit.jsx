@@ -4,9 +4,9 @@ import check from '../../assets/check.png'
 
 function Benefit() {
   return (
-    <div className="lg:max-2xl:flex lg:max-2xl:justify-evenly lg:max-2xl:mt-[-60px] ">
+    <div className="lg:max-2xl:flex lg:max-2xl:justify-center lg:max-2xl:gap-3 lg:max-2xl:mt-[-60px] ">
       <div>
-              <img src={benefit} className="lg:max-2xl:w-[450px] lg:max-2xl:h-[600px] sm:w-[343px] h-[377px]  sm:m-4 " />
+              <img src={benefit} className="lg:max-2xl:w-[450px] lg:max-2xl:h-[600px] sm:w-[343px] h-[377px] rounded-lg  sm:m-4 sm:object-cover " />
       </div>
       <div className="lg:max-2xl:w-[600px] lg:max-2xl:h-[700px]">
         <h3 className="text-[#12171B] lg:max-2xl:text-start lg:max-2xl:text-[38px] sm:text-[28px] font-bold sm:text-center  ">
