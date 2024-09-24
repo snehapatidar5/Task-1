@@ -2,22 +2,22 @@ import EstimateImage from '../../assets/estimateImage.png'
 import iVector from '../../assets/iVector.png'
 function Estimate() {
   return (
-    <div className=' lg:max-2xl:mt-12 lg:max-2xl:flex lg:max-2xl:justify-evenly   lg:max-2xl:w-[100%] lg:max-2xl:h-[670px]  '>
-      <div className='lg:max-2xl:w-[400px]  lg:max-2xl:ml-6 sm:p-3 sm:mt-2'>
+    <div className=' lg:max-2xl:mt-12 lg:max-2xl:flex lg:max-2xl:justify-center lg:max-2xl:gap-4 w-[100%] h-[670px]  '>
+      <div className='lg:max-2xl:w-[400px] lg:max-2xl:mt-[-13px]  lg:max-2xl:ml-6 sm:p-3 sm:mt-3'>
         <div>
           <h3 className='text-[25px] font-semibold'>Estimate your Returns</h3>
-          <p className='text-[18px] text-[#3A3939]'>See if you qualify, discover your potential returns and see if Kai-Zen® is right for you.</p>
+          <p className='text-[18px] text-[#3A3939] sm:pt-1'>See if you qualify, discover your potential returns and see if Kai-Zen® is right for you.</p>
 
 
-          <p className='text-[18px] text-[#3A3939] font-semibold mt-2 '>Age</p>
-          <input type="range" className=" w-full h-1 mb-6  rounded-lg cursor-pointer bg-[#FFFFFF]" />
+          <p className='text-lg text-[#3A3939] font-semibold mt-3 '>Age</p>
+          <input type="range" className=" w-full sm:w-[94%] h-1 mb-6  rounded-lg cursor-pointer bg-[#FFFFFF]" />
 
           <p className='text-[18px] text-[#3A3939] font-semibold'>Annual Contribution Amount</p>
-          <input type="range" className=" w-full h-1 mb-6  rounded-lg cursor-pointer" />
+          <input type="range" className=" w-full sm:w-[94%] h-1 mb-6  rounded-lg cursor-pointer bg-[#FFFFFF]" />
         </div>
         <div>
           <h3 className='lg:max-2xl:text-[25px] sm:text-[20px] font-semibold'>Your Results</h3>
-          <div className='flex sm:mt-4 lg:max-2xl:gap-4 sm:gap-2 '>
+          <div className='flex sm:mt-4 lg:max-2xl:gap-4 sm:gap-3 '>
             <div className='bg-[#F3F9FF] border border-[#E8E8E8] rounded-lg p-2 text-center'>
               <p className='text-[16px] text-[#000000] font-semibold sm:text-[13.5px]'>Starting at Age 55</p>
               <p className='text-[#289BFF] text-[30px] font-semibold sm:text-[26px]'>$935,926</p>
@@ -35,7 +35,7 @@ function Estimate() {
               </div>
             </div>
           </div>
-          <div className='lg:max-2xl:w-[350px] sm:w-[343px] bg-[#FFFFFF] border border-[#E8E8E8] rounded-lg flex lg:max-2xl:p-7 sm:p-4 gap-2 text-center mt-2'>
+          <div className='lg:max-2xl:w-[350px] sm:w-[100%]   border border-[#E8E8E8] rounded-lg flex lg:max-2xl:p-7 sm:p-4 gap-2 text-center mt-2'>
             <div>
             <p className='text-[#289BFF] text-[30px] font-semibold sm:text-[26px]'>$935,926</p>
             <p className='text-[16px] text-[#000000] font-semibold sm:text-[13.5px]'>Remaining Death benefit </p>
