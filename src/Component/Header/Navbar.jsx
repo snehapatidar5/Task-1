@@ -27,14 +27,14 @@ function Navbar() {
           <div className="lg:max-2xl:flex lg:max-2xl:justify-end lg:max-2xl:mt-[6px] lg:max-2xl:mr-[100px] lg:max-2xl:w-[55%] sm:hidden">
 
             <div className="lg:max-2xl:flex lg:max-2xl:gap-[10px] lg:max-2xl:m-4">
-            <div className=' bg-white bg-opacity-20 p-1 lg:max-2xl:w-[38px] lg:max-2xl:h-[40px] rounded-full lg:max-2xl:mt-[-6px]'>
+            <div className=' bg-white bg-opacity-20 p-1 lg:max-2xl:w-[38px] lg:max-2xl:h-[38px] rounded-full lg:max-2xl:mt-[-6px]'>
             <BsTelephone  className="text-white lg:max-2xl:w-[22px] m-1 lg:max-2xl:h-[22px]  lg:max-2xl:my-1" />
             </div>
               <p className="text-white text-lg ">800-294-9940</p>
             </div>
 
             <div className="lg:max-2xl:flex lg:max-2xl:gap-[10px] lg:max-2xl:m-4">
-            <div className=' bg-white bg-opacity-20 p-1 lg:max-2xl:w-[38px] lg:max-2xl:h-[40px] rounded-full lg:max-2xl:mt-[-6px]' >
+            <div className=' bg-white bg-opacity-20 p-1 lg:max-2xl:w-[38px] lg:max-2xl:h-[38px] rounded-full lg:max-2xl:mt-[-6px]' >
             <CiMail className="text-white lg:max-2xl:w-[29px] lg:max-2xl:h-[29px]"/>
 
             </div>
@@ -47,5 +47,4 @@ function Navbar() {
     </>
   );
 }
-
 export default Navbar;
