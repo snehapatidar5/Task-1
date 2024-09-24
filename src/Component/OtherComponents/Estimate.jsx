@@ -9,10 +9,10 @@ function Estimate() {
           <p className='text-[18px] text-[#3A3939] sm:pt-1'>See if you qualify, discover your potential returns and see if Kai-Zen® is right for you.</p>
 
 
-          <p className='text-lg text-[#3A3939] font-semibold mt-3 '>Age</p>
+          <p className='text-lg text-[#3A3939] font-semibold mt-3 sm:mt-6'>Age</p>
           <input type="range" className=" w-full sm:w-[94%] h-1 mb-6  rounded-lg cursor-pointer bg-[#FFFFFF]" />
 
-          <p className='text-[18px] text-[#3A3939] font-semibold'>Annual Contribution Amount</p>
+          <p className='text-[18px] text-[#3A3939] font-semibold sm:mt-6'>Annual Contribution Amount</p>
           <input type="range" className=" w-full sm:w-[94%] h-1 mb-6  rounded-lg cursor-pointer bg-[#FFFFFF]" />
         </div>
         <div>
@@ -36,14 +36,14 @@ function Estimate() {
             </div>
           </div>
           <div className='lg:max-2xl:w-[350px] sm:w-[100%]   border border-[#E8E8E8] rounded-lg flex lg:max-2xl:p-7 sm:p-4 gap-2 text-center mt-2'>
-            <div>
-            <p className='text-[#289BFF] text-[30px] font-semibold sm:text-[26px]'>$935,926</p>
-            <p className='text-[16px] text-[#000000] font-semibold sm:text-[13.5px]'>Remaining Death benefit </p>
+            <div className='sm:w-[50%] '>
+            <p className='text-[#289BFF] text-[30px] font-semibold sm:text-[26px]'>$344,335</p>
+            <p className='text-[16px] text-[#000000] font-semibold sm:text-[13.5px] sm:p-1'>Remaining Death benefit </p>
              <p className='sm:text-[12px] text-[#474242] lg:max-2xl:text-[14px] '>Remaining Amount</p>
 
             </div>
-            <div>
-            <p className='text-[#42E5AB] text-[30px] font-semibold sm:text-[26px]'>$53,053/yr</p>
+            <div className='sm:w-[40%] '>
+            <p className='text-[#42E5AB] text-[30px] font-semibold sm:text-[26px]'>$1,114,121</p>
             <p className='text-[16px] text-[#000000] font-semibold sm:text-[13.5px]'> Tax-free distributions</p>
              <p className='sm:text-[12px] text-[#474242] lg:max-2xl:text-[14px] '>From Age 70-90</p>
 
@@ -52,7 +52,7 @@ function Estimate() {
         </div>
       </div>
       <div className=''>
-        <img src={EstimateImage} className='lg:max-2xl:w-[600px] lg:max-2xl:h-[510px] rounded-lg sm:w-[390px] sm:h-[390px] sm:p-2' />
+        <img src={EstimateImage} className='lg:max-2xl:w-[600px] lg:max-2xl:h-[510px] rounded-lg sm:w-[390px] sm:h-[390px] sm:p-3' />
 
         <p className='text-center  text-[#3A3939] text-[16px] sm: px-[20px]'>Lörem ipsum igt nese trifiering inte egogt. Ryväv nesm fasade. Setreligt deliga. </p>
         <button className='text-white lg:max-2xl:mx-[180px]  sm:w-[250px] sm:ml-[62px]  sm:my-2 bg-[#2B53D6] rounded-full p-2 '>Learn More With FREE Course</button>
