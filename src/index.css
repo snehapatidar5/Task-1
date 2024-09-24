@@ -2,9 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-.slick-slide > div{
-    margin: 0 10px;
-}
+
 
 
 .mySwiper{
@@ -12,13 +10,29 @@
  width: 100%;
 }
 
-  /* SwiperSlide styling */
   .mySwiper .swiper-slide {
-    padding: 50px;
+    padding: 0px 40px 0px 40px;
     border-radius: 10px;
     box-shadow: 0px 4px 10px rgba(160, 95, 95, 0.1);
     
   }
+
+  @media (max-width: 375px) {
+    .swiper-button-next,
+    .swiper-button-prev {
+        display: none !important; 
+    }
+}
+
+
+
+
+
+
+
+
+
+
 
 
  
