@@ -5,37 +5,39 @@ import 'swiper/css/navigation';
 import { Navigation} from 'swiper/modules';
 import video from '../../assets/video.mp4';
 
-export default function App() {
+
+export default function Slider() {
     return (
         <>
-            <div className='lg:max-2xl:space-y-1 lg:max-2xl:mt-[150px] lg:max-2xl:w-[550px] lg:max-2xl:ml-[380px] text-center sm:mt-20'>
+            <div className=' lg:max-2xl:mt-6 lg:max-2xl:w-[550px] lg:max-2xl:ml-[380px] text-center sm:mt-20'>
                 <h2 className='text-[#12171B] font-semibold lg:max-2xl:text-[35px] sm:text-[30px]'>
                     What People are Saying about Us?
                 </h2>
-                <p className='lg:max-2xl:space-y-2 text-[#3A3939] text-[18px] lg:max-2xl:pt-2'>
+                <p className=' text-[#3A3939] text-[18px] lg:max-2xl:pt-2'>
                     Hear from real customers how Kai-Zen has helped secure their financial future.
                 </p>
             </div>
 
             <Swiper
-                slidesPerView={3}
+                slidesPerView={4}
                 centeredSlides={false}
-                spaceBetween={20}
-                navigation={true}
+                spaceBetween={5}
+                navigation={true} 
                 modules={[Navigation]}
                 className="mySwiper"
                 breakpoints={{
-                    375: { // Small screen (like your 375px width)
-                        slidesPerView: 1, // Show 1 slide per view on small screens
+                    375: {
+                        slidesPerView: 1,
+                        spaceBetween: 10,
+                         
+                    },
+                    600: {
+                        slidesPerView: 2,
                         spaceBetween: 10,
                     },
-                    600:{
-                        slidesPerView: 2,
-                        spaceBetween: 20,
-                    },
-                    1024:{
-                        slidesPerView: 3,
-                        spaceBetween: 20
+                    1024: {
+                        slidesPerView: 4,
+                        spaceBetween: 10,
                     }
                 }}
             >
