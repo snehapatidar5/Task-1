@@ -9,7 +9,7 @@ import video from '../../assets/video.mp4';
 export default function Slider() {
     return (
         <>
-            <div className=' lg:max-2xl:mt-6 lg:max-2xl:w-[550px] lg:max-2xl:ml-[380px] text-center sm:mt-20'>
+            <div className=' lg:max-2xl:mt-6 lg:max-2xl:w-[550px] lg:max-2xl:ml-[380px] text-center sm:mt-12'>
                 <h2 className='text-[#12171B] font-semibold lg:max-2xl:text-[35px] sm:text-[30px]'>
                     What People are Saying about Us?
                 </h2>
