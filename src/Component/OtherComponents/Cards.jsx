@@ -23,7 +23,7 @@ const data = [
 
 function Cards() {
   return (
-    <div className='sm:mt-[440px] lg:max-2xl:mt-[-30px] '>
+    <div className='sm:mt-[440px] lg:max-2xl:mt-[-20px] '>
       <div className='text-center  '>
         <h2 className='text-[#12171B]  lg:max-2xl:text-[40px] sm:text-[30px] font-semibold '>Benefits of Kai-Zen®</h2>
         <p className='text-[#3A3939] text-[16px] lg:max-2xl:w-[667px] lg:max-2xl:h-[90px] sm:p-1 text-center lg:max-2xl:ml-[350px]'>We have all used leverage to purchase a nicer home, or to buy a better car. Kai-Zen® uses leverage for the potential to accumulate cash, providing up to 60 - 100% more benefits, than using your money alone.</p>
