@@ -14,7 +14,7 @@ function Hero() {
             <button className='text-white bg-[#2B53D6] rounded-full p-2 px-4 sm:mt-2 sm:mb-6'>Learn More On  Kai-Zen®</button>
         </div>
      </div>
-     <div className='sm:mt-[-20px]  lg:max-2xl:p-0'>
+     <div className='sm:mt-[-20px] lg:max-2xl:p-0'>
         <div className=' sm:px-4 sm:py-2 cursor-pointer'>
             <img src={testimonial} className='lg:max-2xl:w-[480px] lg:max-2xl:h-[310px] sm:w-[380px] sm:h-[236px]'/>
         </div>
